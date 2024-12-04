@@ -15,7 +15,7 @@ public class Game implements Contract {
     private String lastAction; // The last performed action
     private String lastItem; // The last interacted item
     private String lastLocation; //The last location the charater was at
-    Map < String, String > itemMessages; // Descriptions of specific items
+    private Map < String, String > itemMessages; // Descriptions of specific items
 
     /**
      * Initializes the Game object with default values and pre-exisited item messages.
